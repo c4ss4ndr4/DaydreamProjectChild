@@ -1,0 +1,146 @@
+/*
+Theme Name: Daydrea Project Reverie Child Theme
+Description: Child theme for the Reverie
+Author: Cassandra Marshall
+Template: reverie
+*/
+ 
+@import url("../reverie/style.css");
+ 
+/* Start child theme customization below */
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	
+	background-size: 100%;
+	background-position: bottom;
+}
+
+h1.lobster{
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+}
+
+p{
+ 	color: #b0b8b9;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a:link, a:hover, a:visited, a:active{
+	color: #d3d1d1;	
+	
+}
+
+a:hover{
+	background-color: #0c6F68;	
+	
+}
+
+
+
+.customWork, a.customWork{
+		
+		text-shadow: -1.5px -1.5px 2px #666;
+		color: #222;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 80px;
+}
+
+
+
+/* Layout */
+.top-bar{
+	margin-bottom: -20px;
+	
+}
+
+.tag{
+	text-align: center;	
+	margin: 20px;
+	text-shadow: -1.5px -1.5px 2px #c8c6c6;
+}
+
+.container{
+	
+}
+
+.tag {
+	margin: 50px 0 50px 0;
+	font-size: 80px;
+}
+
+.skills {
+	margin: 50px 0 150px 0;
+	
+}
+
+.servicesSection{
+	/*background-color: #ffffff;
+	opacity:.8;*/
+	
+}
+
+.experience{
+	margin: 100px 0 100px 0;
+	background-color: #24aba0;	
+	text-align: right;
+	opacity:1;
+	font-family: 'Ubuntu', sans-serif;
+	/*background-image:url(/images/gridme.png);*/
+	background-image:url(images/checkered_pattern4.png);
+	border-bottom: solid thick #1b7f77;
+	border-top: solid thick #1b7f77;
+}
+
+.experienceInner{
+	/*background-image:url(/images/gridme.png);*/
+	border-bottom: solid thick #1b7f77;
+	border-top: solid thick #1b7f77;
+	padding: 20px;
+	margin: 20px;
+	
+}
+
+
+.example{
+	margin: 100px 0 100px 0;
+	padding: 50px;
+	
+}
+
+.footer{
+	margin:100px 0 10px 0;	
+    background-color: #24aba0;	
+	opacity:1;
+}
+
+.footerWidget.row{
+	padding: 50px;
+	background-color: #24aba0;	
+	font-family: 'Open Sans Light', sans-serif;
+	
+}
+.credits{
+	background-color: #ffffff;
+}
+
+.pageContent{
+	background-color: #ffffff;
+	padding: 15px;
+	opacity:.8;
+}
+
+.innerPageContent{
+	padding: 35px;
+	/*border: solid 1px #666666;	*/
+}
+
+.mainHomeSection{
+	margin-top: 100px;	
+}
+
+.workSectionBody{
+	padding: 20px;	
+}
+
+
