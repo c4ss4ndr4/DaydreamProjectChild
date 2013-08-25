@@ -1,5 +1,5 @@
 /*
-Theme Name: Daydream Project Reverie Child Theme (Remote Version)
+Theme Name: Daydrea Project Reverie Child Theme
 Description: Child theme for the Reverie
 Author: Cassandra Marshall
 Template: reverie
@@ -88,7 +88,7 @@ a:hover{
 	font-family: 'Ubuntu', sans-serif;
 	/*background-image:url(/images/gridme.png);*/
 	background-image:url(images/checkered_pattern4.png);
-	border-bottom: solid thick #1b7f77;
+	/*border-bottom: solid thick #1b7f77;*/
 	border-top: solid thick #1b7f77;
 }
 
@@ -112,12 +112,17 @@ a:hover{
 	margin:100px 0 10px 0;	
     background-color: #24aba0;	
 	opacity:1;
+	
+	background-image:url(images/grass.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	border-top: solid thick #bdd53e;
 }
 
 .footerWidget.row{
 	padding: 50px;
-	background-color: #24aba0;	
-	font-family: 'Open Sans Light', sans-serif;
+	background-color: transparent;	
+	font-family: 'Ubuntu', sans-serif;
 	
 }
 .credits{

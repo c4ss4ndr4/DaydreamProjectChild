@@ -28,7 +28,7 @@ get_header(); ?>
     <div class="row">
      <?php
               $linksPosts = new WP_Query();
-              $linksPosts->query('post_type=page&post_parent=911&orderby=menu_order&order=DEC&post_number=3&posts_per_page=3');
+              $linksPosts->query('post_type=page&post_parent=868&orderby=menu_order&order=DEC&post_number=3&posts_per_page=3');
           ?>
         
           
