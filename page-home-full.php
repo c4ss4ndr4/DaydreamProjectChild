@@ -48,9 +48,6 @@ get_header(); ?>
               echo the_content('Read more...');
               echo '</div>';
               echo '</div>';
-              
-              
-        
                  } 
             else 
                 {
@@ -112,8 +109,12 @@ get_header(); ?>
     
 <section class="example" role="document">
 <div class="row">
+<div class="small-12 columns clients" role="main">
+	<img src="wp-content/themes/DaydreamProjectChild/images/HappyClients.png" />
+    </div>
     <div class="small-12 large-12 columns" role="main">
     <div class="row">       
+    
 		  <?php
               $linksPosts = new WP_Query();
               $linksPosts->query('post_type=page&post_parent=12&orderby=menu_order&order=DEC&post_number=3&posts_per_page=3');

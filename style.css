@@ -18,11 +18,10 @@ body{
 
 h1.lobster{
 	font-family: 'Lobster', cursive;
-	font-size: 36px;
 }
 
 p{
- 	color: #b0b8b9;
+ 	color: #333333;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -39,14 +38,36 @@ a:hover{
 
 
 .customWork, a.customWork{
-		
-		text-shadow: -1.5px -1.5px 2px #666;
+	font-family: 'Ubuntu', sans-serif;
+    /* Shadows are visible under slightly transparent text color */
+    color: rgba(0,134,121, 0.8);
+    text-shadow: 1px 4px 6px #24aba0, 0 0 0 #000, 1px 4px 6px #24aba0;
+	font-size:80px;
+	
+		/*text-shadow: -1.5px -1.5px 2px #666;
 		color: #222;
 		font-family: 'Ubuntu', sans-serif;
-		font-size: 80px;
+		font-size: 80px;*/
 }
 
+h2.experienceText{
+	   /*color: #222;*/
+		font-family: 'Ubuntu', sans-serif;
+    /* Shadows are visible under slightly transparent text color */
+    color: rgba(0,134,121, 0.8);
+    text-shadow: 1px 4px 6px #24aba0, 0 0 0 #000, 1px 4px 6px #24aba0;
+}
 
+/* Don't show shadows when selecting text */
+::-moz-selection { background: #0c6F68; color: #fff; text-shadow: none; }
+::selection { background: #0c6F68; color: #fff; text-shadow: none;}
+
+.clients{
+	/*margin-left: 70%;	
+	/*margin-right: 30%;*/
+	text-align:right;
+	
+}
 
 /* Layout */
 .top-bar{
@@ -56,17 +77,12 @@ a:hover{
 
 .tag{
 	text-align: center;	
-	margin: 20px;
+	margin: 50px 0 50px 0;
 	text-shadow: -1.5px -1.5px 2px #c8c6c6;
 }
 
 .container{
 	
-}
-
-.tag {
-	margin: 50px 0 50px 0;
-	font-size: 80px;
 }
 
 .skills {
@@ -88,8 +104,8 @@ a:hover{
 	font-family: 'Ubuntu', sans-serif;
 	/*background-image:url(/images/gridme.png);*/
 	background-image:url(images/checkered_pattern4.png);
-	/*border-bottom: solid thick #1b7f77;*/
-	border-top: solid thick #1b7f77;
+	/*border-bottom: solid thick #1b7f77;
+	border-top: solid thick #1b7f77;*/
 }
 
 .experienceInner{
@@ -103,7 +119,7 @@ a:hover{
 
 
 .example{
-	margin: 100px 0 100px 0;
+	margin: 50px 0 100px 0;
 	padding: 50px;
 	
 }
