@@ -40,7 +40,12 @@ get_header("page"); ?>
               echo the_title();
 			  	echo '</h3>';
 				
+				//echo '<a href="';
+              //echo the_permalink();
+              //echo '">'; 
               echo the_excerpt('Read more...');
+              //echo '</a>';
+              
 			  
               echo '</div>';
               echo '</div>';
@@ -59,7 +64,11 @@ get_header("page"); ?>
              
              echo '</a>';
              
-             echo the_excerpt('Read more...');
+            	//echo '<a href="';
+              //echo the_permalink();
+              //echo '">'; 
+              echo the_excerpt('Read more...');
+              //echo '</a>';
              echo '</div>';
              
         
